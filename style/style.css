@@ -1,0 +1,30 @@
+/* body-tag */
+body {
+    background-color: rgb(222, 221, 230);
+}
+/* heading-tag */
+.hrading{
+    font-size: 45px;
+    color:rgba(33, 73, 255, 0.747);
+}
+/* calculation-part */
+.bg-div{
+    background-image: linear-gradient(rgba(247, 240, 232, 0.63),rgba(250, 243, 233, 0.589));
+}
+/* button-color */
+.button-color{
+    background-image: linear-gradient(rgba(13, 138, 255, 0.548), rgba(0, 89, 255, 0.76));
+}
+/* font-size of item*/
+.font-size{
+    font-weight: 600;
+}
+/* input-field-size */
+.input-field{
+    size: 20;
+}
+/* input-field-alignment */
+.input-align{
+    text-align:center;
+}
+

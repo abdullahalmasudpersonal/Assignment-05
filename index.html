@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation of monthly expenses</title>
+    <!-- bootstrap-link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--css-link-->
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+
+    <section class="container mt-5 ">
+        <h1 class="text-center fw-bold hrading"> Calculation of monthly expenses </h1>
+    </section>
+
+    <section class="container mt-5">
+
+        <div class="card-group mb-5">
+
+            <div class="card me-1 border">
+                <img class="" src="img/calculation-of-mony.jpg" alt="...">
+            </div>
+
+            <div class="card text-center bg-div border">
+
+                <h5 class="mt-5 fw-bold ">Income</h5>
+                <div class="d-flex justify-content-center mt-2">
+                    <p class="me-3 font-size mt-2 mb-0">Income:</p>
+                    <input id="income-input" class="border bg-secondary p-2 text-dark bg-opacity-25 rounded" type="text"
+                        placeholder="$ enter your amount">
+                </div>
+                <h5 class="mt-3 mb-3 fw-bold">Expenses</h5>
+                <div class="d-flex justify-content-center mt-2">
+                    <p class="me-3 font-size mt-2 mb-0">Food:</p>
+                    <input id="food-expenses" class="border bg-secondary p-2 text-dark bg-opacity-25 rounded"
+                        type="text" placeholder="$ enter your amount">
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <p class="me-3 font-size mt-2 mb-0">Rent:</p>
+                    <input id="rent-expenses" class="border bg-secondary p-2 text-dark bg-opacity-25 rounded"
+                        type="text" placeholder="$ enter your amount">
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <p class="me-2 font-size mt-2 mb-0">Clothes:</p>
+                    <input id="clothes-expenses" class="border bg-secondary p-2 text-dark bg-opacity-25 rounded"
+                        type="text" placeholder="$ enter your amount">
+                </div>
+
+                <div class="mt-3">
+                    <button id="calculate-button"
+                        class="mt-2 border rounded mb-1 px-5 py-2 button-color text-white fw-bold">Calculate</button>
+                </div>
+
+                <h5 class="mt-3 fw-bold">Total Expenses: <span id="total-expeses">00</span></h5>
+
+                <h5 class="mt-2 fw-bold">Balance: <span id="balance">00</span></h5>
+                <div class="mt-2">
+                    <p class="font-size ">Save: <input id="save-input"
+                            class="border bg-secondary p-2 text-dark bg-opacity-25 rounded me-2 ms-2 input-align"
+                            type="text" size="10" placeholder="$ Please enter savings parsent"> %
+                        <button id="save-button"
+                            class=" ms-2 mt-2 border rounded px-5 py-2 button-color fw-bold text-white">Save</button>
+                    </p>
+                </div>
+
+                <h5 class="mt-2 mb-0 fw-bold">Saving Amount: <span>00</span></h5>
+
+                <h5 class="mt-3 fw-bold ">Remaining Balance: <span>2500</span></h5>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- javaScript-link -->
+    <script src="js/calculation.js"></script>
+
+
+
+    <!-- bootstrap-js-link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
