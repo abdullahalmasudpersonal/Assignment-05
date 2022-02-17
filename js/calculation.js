@@ -79,25 +79,6 @@ document.getElementById('save-button').addEventListener('click', function () {
     const leatestRemaingBalance = newRemaingBalance + oldRemaingBalance;
     remaingBalance.innerText = leatestRemaingBalance;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // clear deposit input field
     saveInput.value = '';
 
